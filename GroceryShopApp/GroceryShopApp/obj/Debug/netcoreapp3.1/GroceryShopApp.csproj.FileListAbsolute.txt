@@ -86,3 +86,9 @@ F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\o
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\obj\Debug\netcoreapp3.1\GroceryShopApp.dll
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\obj\Debug\netcoreapp3.1\GroceryShopApp.pdb
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\obj\Debug\netcoreapp3.1\GroceryShopApp.genruntimeconfig.cache
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
