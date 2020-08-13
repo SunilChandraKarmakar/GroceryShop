@@ -10,10 +10,13 @@ namespace GroceryShopApp.Database.DatabaseContext
     {
         public DbSet<Brand> Brands { get; set; }
         public DbSet<BrandPhoto> BrandPhotos { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<CategoryPhoto> CategoryPhotos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Brand>().HasIndex(b => b.Name).IsUnique();
+            modelBuilder.Entity<Category>().HasIndex(c => c.Name).IsUnique();
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
