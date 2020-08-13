@@ -1,0 +1,9 @@
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Database\bin\Debug\netcoreapp3.1\GroceryShopApp.Database.deps.json
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Database\bin\Debug\netcoreapp3.1\GroceryShopApp.Database.dll
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Database\bin\Debug\netcoreapp3.1\GroceryShopApp.Database.pdb
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Database\obj\Debug\netcoreapp3.1\GroceryShopApp.Database.csprojAssemblyReference.cache
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Database\obj\Debug\netcoreapp3.1\GroceryShopApp.Database.AssemblyInfoInputs.cache
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Database\obj\Debug\netcoreapp3.1\GroceryShopApp.Database.AssemblyInfo.cs
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Database\obj\Debug\netcoreapp3.1\GroceryShopApp.Database.csproj.CoreCompileInputs.cache
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Database\obj\Debug\netcoreapp3.1\GroceryShopApp.Database.dll
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Database\obj\Debug\netcoreapp3.1\GroceryShopApp.Database.pdb

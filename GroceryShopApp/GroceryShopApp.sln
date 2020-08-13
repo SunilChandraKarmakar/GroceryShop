@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryShopApp", "GroceryShopApp\GroceryShopApp.csproj", "{24F84223-88AA-4DC7-8EBA-FF48930E1B86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroceryShopApp", "GroceryShopApp\GroceryShopApp.csproj", "{24F84223-88AA-4DC7-8EBA-FF48930E1B86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryShopApp.Models", "GroceryShopApp.Models\GroceryShopApp.Models.csproj", "{47E77187-654B-4ACD-92DA-C45AC9FF8A3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryShopApp.Database", "GroceryShopApp.Database\GroceryShopApp.Database.csproj", "{00A1BC11-9B17-4A7E-84A1-CA86E81DF8E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryShopApp.Manager", "GroceryShopApp.Manager\GroceryShopApp.Manager.csproj", "{F87B5BDD-199B-428B-B11D-F214FB31F641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryShopApp.Repository", "GroceryShopApp.Repository\GroceryShopApp.Repository.csproj", "{76F88DCC-9F82-4623-BE6B-689AB018F78D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{24F84223-88AA-4DC7-8EBA-FF48930E1B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24F84223-88AA-4DC7-8EBA-FF48930E1B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24F84223-88AA-4DC7-8EBA-FF48930E1B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E77187-654B-4ACD-92DA-C45AC9FF8A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E77187-654B-4ACD-92DA-C45AC9FF8A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E77187-654B-4ACD-92DA-C45AC9FF8A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E77187-654B-4ACD-92DA-C45AC9FF8A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A1BC11-9B17-4A7E-84A1-CA86E81DF8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A1BC11-9B17-4A7E-84A1-CA86E81DF8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A1BC11-9B17-4A7E-84A1-CA86E81DF8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A1BC11-9B17-4A7E-84A1-CA86E81DF8E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87B5BDD-199B-428B-B11D-F214FB31F641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87B5BDD-199B-428B-B11D-F214FB31F641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87B5BDD-199B-428B-B11D-F214FB31F641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87B5BDD-199B-428B-B11D-F214FB31F641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F88DCC-9F82-4623-BE6B-689AB018F78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F88DCC-9F82-4623-BE6B-689AB018F78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F88DCC-9F82-4623-BE6B-689AB018F78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F88DCC-9F82-4623-BE6B-689AB018F78D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
