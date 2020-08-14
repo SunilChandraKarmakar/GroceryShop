@@ -7,3 +7,10 @@ F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.M
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Manager\obj\Debug\netcoreapp3.1\GroceryShopApp.Manager.csproj.CoreCompileInputs.cache
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Manager\obj\Debug\netcoreapp3.1\GroceryShopApp.Manager.dll
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Manager\obj\Debug\netcoreapp3.1\GroceryShopApp.Manager.pdb
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Manager\bin\Debug\netcoreapp3.1\GroceryShopApp.Database.dll
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Manager\bin\Debug\netcoreapp3.1\GroceryShopApp.Models.dll
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Manager\bin\Debug\netcoreapp3.1\GroceryShopApp.Repository.dll
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Manager\bin\Debug\netcoreapp3.1\GroceryShopApp.Repository.pdb
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Manager\bin\Debug\netcoreapp3.1\GroceryShopApp.Database.pdb
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Manager\bin\Debug\netcoreapp3.1\GroceryShopApp.Models.pdb
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp.Manager\obj\Debug\netcoreapp3.1\GroceryShopApp.Manager.csproj.CopyComplete
