@@ -1,11 +1,19 @@
 ﻿@using GroceryShopApp.Models.Models; 
 @model IEnumerable<Brand>
 
+@{ 
+    ICollection<BrandPhoto> brandPhotos = ViewBag.BrandPhotos;
+}
+
 <div class="categories__slider owl-carousel">
     @foreach (Brand brand in Model)
     {
+        BrandPhoto particularBrandPhoto = brandPhotos.Where(bp => bp.BrandId == brand.Id).FirstOrDefault();
+        string particularBrandPhotoPath = particularBrandPhoto == null ? 
+            "brandphoto/no_logo.png" : particularBrandPhoto.PhotoPath;
+
         <div class="col-lg-3">
-            <div class="categories__item set-bg" data-setbg="../../customer_layout/img/categories/teer_1.jpg">
+            <div class="categories__item set-bg" data-setbg="../../@particularBrandPhotoPath">
                 <h5><a href="#">@brand.Name</a></h5>
             </div>
         </div>
