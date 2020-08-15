@@ -174,3 +174,4 @@ F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\b
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\GroceryShopApp.Database.pdb
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\GroceryShopApp.Repository.pdb
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LoadCategory\Default.cshtml.g.cs
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LoadBrand\Default.cshtml.g.cs

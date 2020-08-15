@@ -41,6 +41,8 @@ namespace GroceryShopApp
 
             services.AddTransient<ICategoryManager, CategoryManager>();
             services.AddTransient<ICategoryRepository, CategoryRepository>();
+            services.AddTransient<IBrandManager, BrandManager>();
+            services.AddTransient<IBrandRepository, BrandRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

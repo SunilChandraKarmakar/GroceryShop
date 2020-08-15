@@ -1,0 +1,13 @@
+﻿@using GroceryShopApp.Models.Models; 
+@model IEnumerable<Brand>
+
+<div class="categories__slider owl-carousel">
+    @foreach (Brand brand in Model)
+    {
+        <div class="col-lg-3">
+            <div class="categories__item set-bg" data-setbg="../../customer_layout/img/categories/teer_1.jpg">
+                <h5><a href="#">@brand.Name</a></h5>
+            </div>
+        </div>
+    }
+</div>
