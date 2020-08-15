@@ -165,3 +165,12 @@ F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\o
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\obj\Debug\netcoreapp3.1\GroceryShopApp.MvcApplicationPartsAssemblyInfo.cache
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CustomerLayout.cshtml.g.cs
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\GroceryShopApp.Database.dll
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\GroceryShopApp.Manager.dll
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\GroceryShopApp.Models.dll
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\GroceryShopApp.Repository.dll
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\GroceryShopApp.Manager.pdb
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\GroceryShopApp.Models.pdb
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\GroceryShopApp.Database.pdb
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\bin\Debug\netcoreapp3.1\GroceryShopApp.Repository.pdb
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LoadCategory\Default.cshtml.g.cs

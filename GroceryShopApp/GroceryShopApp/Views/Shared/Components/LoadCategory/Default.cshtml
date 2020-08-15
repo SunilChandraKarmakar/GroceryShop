@@ -1,0 +1,9 @@
+﻿@using GroceryShopApp.Models.Models;
+@model IEnumerable<Category>
+
+<ul>
+    @foreach (Category parentCategory in Model)
+    {
+        <li><a href="#">@parentCategory.Name</a></li>
+    }
+</ul>

@@ -4,14 +4,16 @@ using GroceryShopApp.Database.DatabaseContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace GroceryShopApp.Database.Migrations
 {
     [DbContext(typeof(GroceryShopDb))]
-    partial class GroceryShopDbModelSnapshot : ModelSnapshot
+    [Migration("20200815065647_UpdateModel_Category")]
+    partial class UpdateModel_Category
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

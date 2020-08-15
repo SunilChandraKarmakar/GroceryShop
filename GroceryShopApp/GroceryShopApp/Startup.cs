@@ -12,6 +12,10 @@ using GroceryShopApp.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using GroceryShopApp.Manager;
+using GroceryShopApp.Manager.Contracts;
+using GroceryShopApp.Repository.Contracts;
+using GroceryShopApp.Repository;
 
 namespace GroceryShopApp
 {
@@ -34,6 +38,9 @@ namespace GroceryShopApp
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddTransient<ICategoryManager, CategoryManager>();
+            services.AddTransient<ICategoryRepository, CategoryRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -22,6 +22,8 @@ namespace GroceryShopApp.Models.Models
         public string Description { get; set; }
         public bool Status { get; set; }
 
+        public Category Categorye { get; set; }
+        public ICollection<Category> Categories { get; set; }
         public ICollection<CategoryPhoto> CategoryPhotos { get; set; }
     }
 }

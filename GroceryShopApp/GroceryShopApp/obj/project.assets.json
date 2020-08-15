@@ -2710,6 +2710,58 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "GroceryShopApp.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "GroceryShopApp.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.7",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7"
+        },
+        "compile": {
+          "bin/placeholder/GroceryShopApp.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GroceryShopApp.Database.dll": {}
+        }
+      },
+      "GroceryShopApp.Manager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "GroceryShopApp.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GroceryShopApp.Manager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GroceryShopApp.Manager.dll": {}
+        }
+      },
+      "GroceryShopApp.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/GroceryShopApp.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GroceryShopApp.Models.dll": {}
+        }
+      },
+      "GroceryShopApp.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "GroceryShopApp.Database": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GroceryShopApp.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GroceryShopApp.Repository.dll": {}
+        }
       }
     }
   },
@@ -8758,10 +8810,32 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "GroceryShopApp.Database/1.0.0": {
+      "type": "project",
+      "path": "../GroceryShopApp.Database/GroceryShopApp.Database.csproj",
+      "msbuildProject": "../GroceryShopApp.Database/GroceryShopApp.Database.csproj"
+    },
+    "GroceryShopApp.Manager/1.0.0": {
+      "type": "project",
+      "path": "../GroceryShopApp.Manager/GroceryShopApp.Manager.csproj",
+      "msbuildProject": "../GroceryShopApp.Manager/GroceryShopApp.Manager.csproj"
+    },
+    "GroceryShopApp.Models/1.0.0": {
+      "type": "project",
+      "path": "../GroceryShopApp.Models/GroceryShopApp.Models.csproj",
+      "msbuildProject": "../GroceryShopApp.Models/GroceryShopApp.Models.csproj"
+    },
+    "GroceryShopApp.Repository/1.0.0": {
+      "type": "project",
+      "path": "../GroceryShopApp.Repository/GroceryShopApp.Repository.csproj",
+      "msbuildProject": "../GroceryShopApp.Repository/GroceryShopApp.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "GroceryShopApp.Manager >= 1.0.0",
+      "GroceryShopApp.Models >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.7",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.7",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.7",
@@ -8802,7 +8876,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\C# Project\\Web Application - CORE\\GroceryShop\\GroceryShopApp\\GroceryShopApp.Manager\\GroceryShopApp.Manager.csproj": {
+              "projectPath": "F:\\C# Project\\Web Application - CORE\\GroceryShop\\GroceryShopApp\\GroceryShopApp.Manager\\GroceryShopApp.Manager.csproj"
+            },
+            "F:\\C# Project\\Web Application - CORE\\GroceryShop\\GroceryShopApp\\GroceryShopApp.Models\\GroceryShopApp.Models.csproj": {
+              "projectPath": "F:\\C# Project\\Web Application - CORE\\GroceryShop\\GroceryShopApp\\GroceryShopApp.Models\\GroceryShopApp.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
