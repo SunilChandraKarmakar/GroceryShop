@@ -178,3 +178,5 @@ F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\o
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SubCategoryBrandProductLayout.cshtml.g.cs
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetSubCategoryByParentCategoryId.cshtml.g.cs
 F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LoadFeaturedBrand\Default.cshtml.g.cs
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LoadBrand\Default.cshtml.g.cs
+F:\C# Project\Web Application - CORE\GroceryShop\GroceryShopApp\GroceryShopApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LoadHeaderSection\Default.cshtml.g.cs

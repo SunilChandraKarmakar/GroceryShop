@@ -1,0 +1,9 @@
+﻿@using GroceryShopApp.Models.Models;
+@model IEnumerable<Brand>
+
+<ul>
+    @foreach (Brand brand in Model)
+    {
+        <li><a href="#">@brand.Name</a></li>
+    }
+</ul>
