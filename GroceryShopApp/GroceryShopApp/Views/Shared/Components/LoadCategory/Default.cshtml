@@ -1,9 +1,10 @@
 ﻿@using GroceryShopApp.Models.Models;
-@model List<Category>
+@model IEnumerable<Category>
 
 <ul>
     @foreach (Category parentCategory in Model)
     {
-        <li><a href="#">@parentCategory.Name</a></li>
+        <li><a asp-controller="Home" asp-action="GetSubCategoryByParentCategoryId" 
+               asp-route-id="@parentCategory.Id">@parentCategory.Name</a></li>
     }
 </ul>
