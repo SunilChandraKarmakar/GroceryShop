@@ -41,6 +41,8 @@ namespace GroceryShopApp
 
             services.AddTransient<ICategoryManager, CategoryManager>();
             services.AddTransient<ICategoryRepository, CategoryRepository>();
+            services.AddTransient<ICategoryPhotoManager, CategoryPhotoManager>();
+            services.AddTransient<ICategoryPhotoRepository, CategoryPhotoRepository>();
             services.AddTransient<IBrandManager, BrandManager>();
             services.AddTransient<IBrandRepository, BrandRepository>();
             services.AddTransient<IBrandPhotoManager, BrandPhotoManager>();

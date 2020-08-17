@@ -15,11 +15,14 @@ namespace GroceryShopApp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly ICategoryManager _iCategoryManager;
+        private readonly ICategoryPhotoManager _iCategoryPhotoManager;
 
-        public HomeController(ILogger<HomeController> logger, ICategoryManager iCategoryManager)
+        public HomeController(ILogger<HomeController> logger, ICategoryManager iCategoryManager,
+            ICategoryPhotoManager iCategoryPhotoManager)
         {
             _logger = logger;
             _iCategoryManager = iCategoryManager;
+            _iCategoryPhotoManager = iCategoryPhotoManager;
         }
 
         public IActionResult Index()
@@ -34,10 +37,16 @@ namespace GroceryShopApp.Controllers
 
             ICollection<Category> getSubCategory = _iCategoryManager.GetAll()
                 .Where(c => c.CategoryId == id).ToList();
+            ICollection<CategoryPhoto> getFeaturedCategoryPhotos = _iCategoryPhotoManager.GetAll()
+                .Where(cp => cp.Featured == true && cp.Status == true).ToList();
 
             if (getSubCategory == null)
                 getSubCategory = new List<Category>();
 
+            if (getFeaturedCategoryPhotos == null)
+                getFeaturedCategoryPhotos = new List<CategoryPhoto>();
+
+            ViewBag.GetFeaturedCategoryPhotos = getFeaturedCategoryPhotos;
             return View(getSubCategory);
         }
 
